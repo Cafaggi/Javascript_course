@@ -96,6 +96,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
   }
 .explanatory-video img {
     width: 120px;
@@ -108,5 +109,6 @@ li {
       top: 0;
       left: 0;
       right: 0;
+      margin: 10px;
   }
 
