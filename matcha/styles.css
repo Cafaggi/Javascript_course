@@ -112,3 +112,88 @@ li {
       margin: 10px;
   }
 
+/* section of success-stories */
+.users {
+    background-color: #a1d683;
+    padding: 50px 0;
+}
+.content {    
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.brands h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 50px;
+    color: #025157;
+}
+.brands p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.brands button {
+    display: block
+}
+.brands img{
+    width: 500px;
+    margin-top: 20px;
+}
+.profiles {
+    background-color: #fff;
+    width: 280px;
+    border-radius: 8px;
+    position: relative;
+}
+.profiles-foto {
+    width: 280px;
+}
+.profiles-logo {
+    background-color: #f9da73;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 250px; 
+    right: 20px;
+}
+
+.profiles-logo img {
+    width: 75px;
+    height:auto;
+}
+
+.profiles-info {
+    padding: 20px;
+}
+.profiles-info h3 {
+    font-size: 20px;   
+    color: #025157;
+    margin-bottom: 20px;
+}
+.profiles-info > p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.profiles-info button {
+    width: 100%;
+}
+
+.cart {
+    display:flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.cart img {
+    height: 25px; 
+}
+.cart p {
+    color: #8b8b8bcc;
+    font-size: 16px;
+}
