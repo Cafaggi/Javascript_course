@@ -1,0 +1,12 @@
+$font-title: "Alegreya", serif;
+$dark-green-title: #01545a;
+$dark-green-text: #135157;
+$white: #ffffff;
+$gray: #4a4a4a;
+$light-gray: #a0a0a0;
+$light-green: #67b54b;
+
+%base-title {
+    font-family: $font-title;
+    color: $dark-green-text;
+  }

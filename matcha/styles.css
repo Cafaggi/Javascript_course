@@ -41,13 +41,12 @@ main {
   font-family: sans-serif;
 }
 
-.header > * {
+/* .header > * {
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
-  height: 100%;
   line-height: 45px;
-}
+} */
 
 li {
   display: inline;
@@ -61,11 +60,11 @@ li {
   height: 100%;
 }
 
-.navbar {
+/* .navbar {
   width: 70%;
   text-align: center;
   color: #025157;
-}
+} */
 
 .menu-item {
   display: inline;
@@ -150,7 +149,6 @@ li {
   grid-template: repeat(4, 1fr) / 1fr;
   gap: .5rem;
   height: 800px;
-  width: 90%;
 
 }
 
@@ -226,13 +224,11 @@ li {
   height: 100%;
 }
 
-
-
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar, .actions {
+  /* .navbar, .actions {
     display: none;
-  }
+  } */
 
   main {
     margin-top: 130px;
@@ -248,7 +244,7 @@ li {
 
   .promo {
     flex-direction: column;
-    max-width: 90%;
+
   }
 
   .publish > form {
