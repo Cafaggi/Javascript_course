@@ -48,3 +48,5 @@
 //   // console.log(forms[i]);
 //   forms[i].addEventListener("submit", sendEmail)
 // }
+
+console.log("lo logramos")
